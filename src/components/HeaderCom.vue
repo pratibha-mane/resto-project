@@ -1,0 +1,41 @@
+<template>
+
+<div class="nav">
+<a href="#">Home </a>
+<a href="#">Add Restaurant </a>
+<a href="#">Update Restaurant </a>
+<a v-on:click="logout" href="#">Logout </a>
+</div>
+</template>
+<script>
+export default{
+    name:'HeaderCom',
+    methods:{
+        logout(){
+            localStorage.clear();
+            this.$router.push({name:"LoginFirst"})
+        }
+    }
+}
+</script>
+
+<style>
+.nav{
+    background-color:#333;
+    overflow:hidden
+}
+.nav a{
+    float:left;
+    color: white;
+    text-align: center;
+    padding:10px 14px;
+    text-decoration: none;
+    font-size: 14px;
+    margin-right: 4px;
+}
+.nav a:hover{
+  
+
+
+}
+</style>
