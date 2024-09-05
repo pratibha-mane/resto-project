@@ -174,5 +174,26 @@
       "name": "h",
       "password": "m"
     }
+  ],
+
+  "RestoBar":[
+      {
+          "id":1,
+          "name":"KFC",
+          "Address":"Noida",
+          "contact":7890566745
+      },
+      {
+        "id":2,
+        "name":"krushna",
+        "Address":"mumbai",
+        "contact":7890896745
+    },
+    {
+        "id":3,
+        "name":"burger king",
+        "Address":"pune",
+        "contact":78908990895
+    }
   ]
 }
